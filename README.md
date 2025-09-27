@@ -35,6 +35,7 @@ Body (JSON):
 }
 
 
+
 Expected result:
 
 {
@@ -44,6 +45,7 @@ Expected result:
 
 📷 Result file public/img/register.img
 
+![alt text](public/img/3aregister.jpg)
 # b. Login
 
 Endpoint: POST /auth/login
@@ -67,5 +69,10 @@ Expected result:
   }
 }
 
+![alt text](public/img/3Login.jpg)
 
 👉 A session cookie (connect.sid) is now stored in Postman and MongoDB.
+![alt text](<public/img/After Register checkin Database MongoDB.jpg>)
+
+. Logout 
+![alt text](public/img/3Logout.jpg)
